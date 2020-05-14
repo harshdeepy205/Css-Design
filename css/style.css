@@ -1,0 +1,17 @@
+.colour {
+  background: linear-gradient(57deg, #00c6a7, #1e4d92);
+}
+
+.slid {
+  background: linear-gradient(57deg, #1e4d92, #00c6a7);
+}
+@media only screen and (max-width: 680px) {
+  img {
+    width: 100vw;
+  }
+}
+
+.harsh {
+  text-align: center;
+  padding-top: 15%;
+}
