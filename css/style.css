@@ -37,12 +37,24 @@
   border-top: 3px solid #1e4d92;
 }
 
+.studentForm {
+  /* width: auto;
+  border-color: black; */
+  width: auto;
+  background: #fafafa;
+  padding: 30px;
+  margin: 30px auto;
+  box-shadow: 1px 1px 25px rgba(0, 0, 0, 0.35);
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
 .register {
   background-origin: padding-box;
   box-sizing: border-box;
   width: 500%;
   height: initial;
-  /* border: darkgrey solid; */
+
   margin-top: 50px;
   /* background: linear-gradient(57deg, #1e4d92, #00c6a7); */
   /* clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 100%); */
