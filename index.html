@@ -62,24 +62,27 @@
 
               <div class="form-row mb-4">
                 <div class="col">
-                  <!-- First name -->
+                  <!-- <!-- First name -->
                   <button
-                  type="Submit"
-                  id="defaultRegisterFormLastName"
-                  class="form-control btn btn-success"
+                  class="btn btn-success center" data-toggle="modal"
+                data-target="#exampleModal"
                   style="width: 50%;"
                   name="Student">Student
                 </button>
                 </div>
                 <div class="col">
-                  <!-- Last name -->
-                  <button
-                    type="Submit"
-                    id="defaultRegisterFormLastName"
-                    class="form-control btn btn-success"
+                  
+                   <button 
+                   class="btn btn-success center" data-toggle="modal"
+                   data-target="#exampleModal"
                     style="width: 50%;"
                     name="Faculty">Faculty
-                  </button>
+                  </button> 
+                  <!-- <button type="button" class="btn btn-primary center" data-toggle="modal"
+                data-target="#exampleModal"><b>Student</b></button>
+                </div>
+                <button type="button" class="btn btn-primary center" data-toggle="modal"
+                data-target="#exampleModal"><b>Faculty</b></button> -->
                 </div>
               </div>
 
@@ -92,10 +95,10 @@
 
     <div class="container ">
 
-      <h1 style="text-align: center; padding: 5%;">Why Academics Works<hr></h1>
+      <h1 style="text-align: center; padding: 5%; color: #00c6a7;">Why Academics Works<hr class="uline"></h1>
       <div class="crds">
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="images/2.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -104,7 +107,7 @@
       </div>
 
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="images/file1.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -114,7 +117,7 @@
 
 
       <div class="card" style="width: 18rem;">
-        <img class="card-img-top" src="..." alt="Card image cap">
+        <img class="card-img-top" src="images/3.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -124,6 +127,53 @@
 
       </div>
     </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Pre-Registration</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <form>
+                <div class="modal-body">
+                    <div class="form" id="register">
+                        <!-- <h3>Pre-Registration</h3> -->
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail1"
+                                    placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">Email</label>
+                                <input type="email" class="form-control" id="exampleInputPassword1"
+                                    placeholder="Enter Email">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputPassword1">No. of Persons</label>
+                                <select class="form-control form-control-sm">
+                                    <option>1</option>
+                                    <option>2</option>
+                                    <option>3</option>
+                                    <option>4</option>
+                                    <option>5</option>
+                                </select></div>
+                        
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Code MOdal -->
     
   </body>
 
