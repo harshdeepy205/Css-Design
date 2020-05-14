@@ -4,14 +4,41 @@
 
 .slid {
   background: linear-gradient(57deg, #1e4d92, #00c6a7);
+  /* clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 100%); */
 }
 @media only screen and (max-width: 680px) {
   img {
     width: 100vw;
   }
 }
+/* @media only screen and (min-width: 680px) {
+  .slid {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 100%);
+  }
+} */
 
 .harsh {
   text-align: center;
   padding-top: 15%;
+}
+
+.crds {
+  display: flex;
+  padding: 1px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+hr {
+  /* margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 12px solid black; */
+  border-color: black;
+  border-width: thick;
+
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
 }
