@@ -1,7 +1,9 @@
 .colour {
   background: linear-gradient(57deg, #00c6a7, #1e4d92);
 }
-
+.colour1 {
+  background: #00c6a7;
+}
 .slid {
   background: linear-gradient(57deg, #1e4d92, #00c6a7);
   /* clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 100%); */
@@ -16,6 +18,11 @@
     clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 100%);
   }
 } */
+
+@media (min-width: 1200px)
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 562px;
+}
 
 .harsh {
   text-align: center;
@@ -63,3 +70,4 @@
   background: linear-gradient(57deg, #00c6a7, #1e4d92);
   /* clip-path: polygon(0% 0%, 100% 0%, 100% 98%, 0% 100%); */
 }
+
